@@ -2,7 +2,7 @@ const discord = require ('discord.js');
 
 const client = new Discord.Client();
 
-client.login(process.env.TOKEN);
+client.login("NjU0MDI1NzY1MjQ2OTkyMzg2.Xe_j3w.sZHbSrVmU9JbpLr8gvUGdD3gYG4");
 
 var prefix = ("$");
 
