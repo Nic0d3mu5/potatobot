@@ -1,4 +1,4 @@
-const discord = require ('discord.js');
+const discord = require('discord.js');
 
 const client = new Discord.Client();
 
@@ -6,14 +6,14 @@ client.login(process.env.TOKEN);
 
 var prefix = ("$");
 
-client.on ("ready", () => {
+client.on("ready", () => {
 	console.log ("J'ai la fritte !");
 	
 	client.user.setGame ("Préfixe : $");
 });
 
 
-client.on ("message", (message) => {
+client.on("message", (message) => {
 	
     if (msg.startWith ($ + "otter")) {
 	    number = 50;
@@ -23,4 +23,3 @@ client.on ("message", (message) => {
 
 });
 
-client.login (token);
