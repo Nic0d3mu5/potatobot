@@ -1,8 +1,10 @@
 const discord = require ('discord.js');
 
-var client = new discord.Client();
+const client = new Discord.Client();
 
-const token = "NjU0MDI1NzY1MjQ2OTkyMzg2.Xe_j3w.sZHbSrVmU9JbpLr8gvUGdD3gYG4";
+client.login(process.env.TOKEN);
+
+var prefix = ("$");
 
 client.on ("ready", () => {
 	console.log ("J'ai la fritte !");
@@ -10,7 +12,7 @@ client.on ("ready", () => {
 	client.user.setGame ("Préfixe : $");
 });
 
-const prefix = "$";
+
 client.on ("message", (message) => {
 	
     if (msg.startWith ($ + "otter")) {
