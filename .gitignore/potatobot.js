@@ -2,7 +2,7 @@ const discord = require ('discord.js');
 
 var client = new discord.Client();
 
-const token = process.env.TOKEN;
+const token = "NjU0MDI1NzY1MjQ2OTkyMzg2.Xe_j3w.sZHbSrVmU9JbpLr8gvUGdD3gYG4";
 
 client.on ("ready", () => {
 	console.log ("J'ai la fritte !");
